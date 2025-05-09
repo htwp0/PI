@@ -20,6 +20,8 @@ iptu float,
 data_cadastro TIMESTAMP,
 valor_aluguel float,
 status_casa status_tipo
+
+SELECT * FROM tb_VivaImovel
 	
 
 	);
