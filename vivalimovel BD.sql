@@ -1,6 +1,6 @@
 CREATE TYPE status_tipo AS ENUM('alugado','naoalugado');
 
-create table tb_VivaImovel(
+create table tb_VivaImovel1 (
 
 id_imovel int,
 endereço varchar(200),
@@ -19,9 +19,10 @@ descricao int,
 iptu float,
 data_cadastro TIMESTAMP,
 valor_aluguel float,
-status_casa status_tipo
+status_casa status_tipo);
 
-SELECT * FROM tb_VivaImovel
-	
+SELECT * FROM tb_VivaImovel1;
 
-	);
+
+
+
